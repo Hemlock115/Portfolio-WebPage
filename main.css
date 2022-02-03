@@ -1,0 +1,36 @@
+.center{
+vertical-align: middle;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+    body {
+        background-color: lightblue;
+      }
+      h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+      }
+    ul{
+
+       font-family: 'Times New Roman', Times, serif;
+       
+
+    }
+    .wrapper {
+        text-align: center;
+    }
+    .wrapper ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        /* For IE, the outcast */
+        zoom:1;
+        *display: inline;
+    }
+    .wrapper li {
+        float: left;
+        padding: 2px 5px;
+        border: 1px solid black;
+    }
